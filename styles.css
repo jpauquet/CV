@@ -1,0 +1,478 @@
+/* PALLETTE COULEUR
+--- P1 ---
+#005555  vert/bleu foncé
+#069A8E  vert/bleu clair
+#A1E3D8  bleu pastel
+#F7FF93  jaune pastel
+
+--- P2 ---
+
+#1E6F5C vert foncé
+#289672 vert 
+#29BB89 vert clair
+#E6DD3B jaune
+
+*/
+/* TUNNING */
+
+h1, h2, h3, h4, h5, h6{
+  color: #005555;
+}
+
+
+
+.myspan{
+  margin-left: 50px;
+}
+
+.myspanunderline{
+  text-decoration: underline;
+  text-underline-offset: 0.13rem;
+}
+
+
+.myth {
+  color: #005555;
+}
+
+.myfooterfixe {
+  position: absolute;
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  bottom: 0 !important;
+  width: 100%;
+  height: 6rem;
+  background-color: #005555;
+  color: #F7FF93;
+  text-align: center;
+  background-image:url(images/forest.jpg);
+  background-size:20rem;
+}
+
+.myfootermove {
+  position: relative;
+  padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  bottom: 0 !important;
+  width: 100%;
+  height: 6rem;
+  background-color: #005555;
+  color: #F7FF93;
+  text-align: center;
+  background-image:url(images/forest.jpg);
+  background-size:20rem;
+}
+
+.heading-h1{
+  margin-top: 50px;
+  margin-left: 16.5rem;
+  color: #F7FF93;
+  font-family: 'Montserrat', sans-serif;
+}
+.heading-h4{
+  width: 200px;
+}
+
+.myhr{
+  border: dotted #F7FF93 6px;
+  border-top: none;
+  width: 18rem;
+  height: fit-content;
+}
+
+
+
+/* TEST */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container:after {
+  clear: both;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+
+
+/* TEST */
+
+
+#photo_julien{
+    /* float: right; */
+    margin-left: 5px;
+    width: 9%;
+    border: 2px solid;
+    border-radius: 100%;
+    border-color: #F7FF93;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+
+.css-button-gradient--1 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #4ecdc4 0%, #c797eb 75%);
+}
+.css-button-gradient--1:hover {
+    background-position: right center;
+}
+.css-button-gradient--1:active {
+    top: 2px;
+}
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.jaunepastel{
+    color: #F7FF93;
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #96d3e2 lightgrey;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: lightgrey;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #96d3e2;
+    border-radius: 20px;
+    border: 3px solid lightgrey;
+  }
+
+
+
+/* HEADER */
+.top-header{
+    background-color: #005555;
+    height: 2rem;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+/* small screen */
+/* @media screen and (max-height: 600px) {
+  .top-header {
+    width: 100%;
+    height: 2.5rem;
+  } */
+
+.bleupastel{
+    background-color: #A1E3D8;
+    color: #F7FF93;
+}
+
+
+#divprez{
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;;
+  width: 70%;
+  line-height: 2;
+}
+
+
+.divexperience{
+  width: fit-content;
+  /* margin-bottom: 6rem; */
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: #F7FF93;
+}
+.divprojet{
+  width: fit-content;
+  /* margin-bottom: 6rem; */
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+  margin-top: 0;
+}
+
+.divcomp{
+  width: 600px;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  height: fit-content;
+}
+
+.divhr{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  clear: both;
+}
+
+.lesplus{
+  margin-top: 30rem;
+  width: fit-content;
+  margin-left: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.mt-6{
+    margin-top: 6rem !important;
+}
+
+.mb-20{
+    margin-left: 20rem !important;
+}
+
+.sectionleft{
+  float: left;
+  margin-left: 5%;
+  width: 40rem;
+}
+.sectionright{
+  float: right;
+  margin-right: 15%;
+  width: 35rem;
+}
+
+.sectionmiddle{
+  margin-top: 10px;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 250px; /* Full-height: remove this if you want "auto" height */
+  width: fit-content; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  /* z-index: 1; */
+  top: 50px;
+  left: 0;
+  /* #069A8E */
+  background-color: #005555  ;
+  overflow: auto;
+  margin: 0;
+  border-radius: 0 100px 100px 0;
+  padding-top: 15px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #F7FF93 ;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}  */
+@media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: 3rem;
+      position: relative;
+    }
+    .sidenav a {float: left;}
+    div.content {margin-left: 0;}
+}
+  
+@media screen and (max-width: 400px) {
+  .sidenav a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+
+
+.divimageworkplace{
+  width: 30%;
+  /* height: fit-content; */
+  margin: 100px auto 100px auto;
+  /* background-color: red; */
+}
+
+
+
+
+
+
+/* FOOTER  */
+
+/* small screen */
+@media screen and (max-height: 600px) {
+  footer {
+    width: 100%;
+    height: 2.5rem;
+    position: relative;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  }
+  footer .mynavbar{
+    padding: 0;
+  }
+  footer .divme{
+    padding: 0;
+  }
+  footer p{
+    height: fit-content;
+    width: fit-content;
+    font-size: 0.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  footer img{
+    border-radius: 1px;
+    width: 1.5rem;
+    height: fit-content;
+  }
+  footer .fa{
+    width: 2rem;
+  }
+}
+
+/* medium screen */
+@media screen and (max-height: 800px) {
+  footer {
+    width: 100%;
+    height: 2.5rem;
+    position: relative;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+  }
+  footer .mynavbar{
+    padding: 0;
+  }
+  footer .divme{
+    padding: 0;
+  }
+  footer p{
+    height: fit-content;
+    width: fit-content;
+    font-size: 0.5rem;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  footer img{
+    border-radius: 1px;
+    width: 1.5rem;
+    height: fit-content;
+  }
+  footer .fa{
+    width: 2rem;
+  }
+}
+
+
+
+.mynavbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+.divme{
+  height: fit-content;
+  width: fit-content;
+  font-size: 1rem;
+  padding-left: 3rem;
+  margin-right: auto;
+}
+
+.divgameboy{
+  background-color: #F7FF93; 
+  /* height: 50px;  */
+  border-radius: 10px;
+  /* margin-bottom: 5px; */
+  width: fit-content;
+  height: fit-content;
+
+}
+
+.divfooticone{
+  height: fit-content;
+  width: fit-content;
+  padding-right: 3rem;
+}
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 4rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-bottom: 5px;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  /* background: #3B5998; */
+  color: white;
+
+}
+
+/* Twitter */
+.fa-twitter {
+  /* background: #55ACEE; */
+  color: white;
+}
+.fa-linkedin {
+  /* background: #007bb5; */
+  color: white;
+}
+
+
+

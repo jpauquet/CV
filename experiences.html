@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- My meta -->
+        <meta name="description" content="Portfolio de Julien Pauquet-Lacassagne, Bordelais curieux des métiers touchants à l'informatique." />
+        <meta name="keywords" content="julien, pauquet, julien pauquet-lacassagne, Bordeaux, websites, freelance, developer" />
+        <!-- Perso -->
+        <title>CV Julien Pauquet-lacassagne</title>
+        <link rel="icon" href="images/favicon-32x32.png" type="image/png">
+
+        <!-- Style bootstrap and mystyle -->
+        <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&text=David%20Ojeda" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&text:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <!-- Script -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="/_layouts/15/moccapublishing/vendors/jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/site/CA-GIP/style%20library/vendors/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+
+    <!-- Body -->
+    <body style="background-color:  #29775598;">
+        <header class="top-header fixed-top">
+            <div>
+                <img src="images/Photo_identite.png" alt="photo_julien" id="photo_julien">
+            </div>
+        </header>
+    <!-- Debut test --> 
+        <!-- sidebar perso -->
+
+        <div class="sidenav">
+            <a href="index.html">A propos</a>
+            <a href="experiences.html">Expériences</a>
+            <a href="formations.html">Formations</a>
+            <a href="competences.html">Compétences</a>
+            <a href="loisirs.html">Loisirs</a>
+        </div>
+        <div>
+            <h1 class="heading-h1">Expériences</h1>
+        </div>
+        <section class="sectionleft">
+            <div class=" main container-fluid divexperience ">
+                <h5><span class="myspanunderline">Entreprise :</span> ITS Group<br>
+                    <span class="myspanunderline">Titre du poste :</span> Administrateur sauvegarde<br>
+                    <span class="myspanunderline">Dates :</span> octobre 2020 - En cours<br>
+                    <span class="myspanunderline">Responsabilités / Réalisations principales :</span></h5>                    
+                <p>
+                    N3 Sauvegarde dans une équipe de 10 personnes avec une infrastructure composée de plusieurs Datazone Networker 19.3 et Avamar 19.3, passage en 19.5 en cours, avec écriture des données sur plusieurs Datadomains DD9900. Datazone avec un environnement principal, PSI et PRA.</p>
+                    - Suivi et mise en place de patchs de sécurités et mises à jours Networker, Avamar et Datadomain.<br>
+                    - Rédaction de documentations DEX, DAT et transmissions de compétences aux équipes N2 et N1 et création de schémas d’architecture.<br>
+                    - Création de scripts shell pour automatisation de processus (mise en place de clients dans mes outils de sauvegarde, lancement sauvegarde, suppression, test de flux)<br>
+                </p>
+            </div>
+        </section>
+        <section class="sectionright">
+            <div class="container-fluid divprojet">
+                <h5><span class="myspanunderline">Projets :</span></h5>
+                    <p>
+                        Mise en place d’une nouvelle infrastructure de sauvegarde Networker 19.4 afin de sauvegarder des NAS ISILON et UNITY avec de forte volumétrie (plusieurs Po de données) et sur plusieurs zone réseau, déploiement de serveurs networker avec NMC et storage node  puis commande auprès de DellEMC pour des serveurs physiques qui serviront de "proxy" pour la sauvegarde (faire du Client direct sur networker et ne pas passer par NDMP).<br>
+                        Configuration des Datadomains pour l'écriture des sauvegardes.</p><br>
+                        Mise en place d’une nouvelle infrastructure de sauvegarde Avamar pour sauvegarder des VM dans vmware cloud on aws, déploiement serveurs Avamar et proxies dans vmware cloud on aws et des DDve sur des VPC à part.<br>
+                    </p>
+            </div>
+        </section><br>
+        <div class="divhr">
+            <hr class="myhr mx-auto">
+        </div>
+        <br>
+        <section class="sectionleft">
+            <div class="main container-fluid divexperience">  
+                <h5><span class="myspanunderline">Entreprise :</span> Sogeti/Capgemini<br>
+                    <span class="myspanunderline">Titre du poste :</span> Administrateur sauvegarde<br>
+                    <span class="myspanunderline">Dates :</span> novembre 2015 - octobre 2020<br>
+                    <span class="myspanunderline">Responsabilités / Réalisations principales :</span></h5>
+                    <p>Responsable technique en second de l’équipe sauvegarde.Cela m'a impliqué dans des réunions avec le client lors de nouveaux projets arrivant  et effectué le suivi et gestions des projets dans l'équipe (gestions ressources, risques, raci).</p><br>
+                    <p>Administrer les composants liés à la sauvegarde Avamar, Networker et Commvault (arrivé lors d'un projet) et support N2/N3 incidents, demande de travaux, projets.</p><br>
+            </div>
+        </section>
+        <section class="sectionright">
+            <div class="container-fluid divprojet">
+                <h5><span class="myspanunderline">Projets :</span></h5>
+                <p>
+                    Projet de changement de toute l'architecture de sauvegarde Networker et Avamar  vers Commvault:<br>
+                    - J'étais le point d'entrée unique de l'équipe sauvegarde pour ce projet (coordination et concaténation des informations entre l'équipe architecture sauvegarde, mon équipe et l'équipe projet).<br>
+                    - Déploiement de la solution de sauvegarde Commvault une fois les serveurs commvault mis en place par l'intégrateur en datacenter.<br>
+                    - Choix de la politique de sauvegarde et configuration de la solution.<br>
+                    - Création de scripts pour l'automatisation des sauvegardes, groupes et clients.<br>
+                    - Coordination avec les autres équipes pour la mise en place du réseau, de la supervision et autres besoins.<br>
+                </p>        
+            </div>
+        </section>
+        <div class="divhr ">
+            <hr class="myhr mx-auto">
+        </div>
+        <section class="sectionleft">
+            <div class="main container-fluid divexperience">
+                <h5>Entreprise : Auchan lac<br>
+                Titre du poste : ELECTROTECHNICIEN DE MAINTENANCE<br>
+                    Dates : janvier 2013 - octobre 2015<br>
+                    Responsabilités / Réalisations principales :</h5><br>
+                <p>
+                    Technicien de maintenance dans une équipe de maintenance de 6 personnes, je devais effectuer la maintenance des infrastructure du magasin et de galerie Auchan le lac.<br>
+                    Cela impliqué la maintenance électrotechnique, mécanique, hydraulique et pneumatique des différentes machines et du magasin Auchan.<br>
+                    La veille constante des règles de sécurité qui implique le public.<br>
+                    Tous types de travaux annexe comme de la soudure, mécanique sur les chariots autoporteur, réffection du sol, etc.<br>
+                    L'aide à la modification des allées, modification des gondoles, mise en place de nouveaux plateaux.<br>
+                </p>
+            </div>
+        </section>
+        <section class="sectionright">
+            <div class="container-fluid divprojet">
+                <h5><span class="myspanunderline">Projets :</span></h5>
+                <p>
+                    - Remise aux normes électriques de tout l'éclairage du magasin.<br>
+                    - Mise en place d'une nouvelle chaine de caisse.<br>
+                    - Mise en place des nouvelles machines pour la boulangerie/patisserie.<br>
+                </p>
+            </div>
+        </section>    
+        <div class="divhr ">
+            <hr class="myhr mx-auto">
+        </div> 
+        <section class="sectionleft">
+            <div class="main container-fluid divexperience">
+                <h5>Entreprise : Armée de l’air<br>
+                <p>Titre du poste : ELEVE SOUS OFFICIER Spécialité Mécanicien avionique<br>
+                    Dates : janvier 2012 - décembre 2012<br>
+                    Responsabilités / Réalisations principales :</h5><br>
+                    
+                    Apprentissage de la fonction de sous officier, Certificat d’aptitude militaire, gestion d’une équipe, mécanique sur les avions de l’armée.<br>
+                </p>
+            </div>
+        </section>
+        <div class="divhr ">
+            <hr class="myhr mx-auto">
+        </div>
+
+        <!-- "d-flex flex-wrap justify-content-between align-items-center " -->
+
+        <footer class="flex-wrap myfootermove">
+            <nav class="navbar ">
+                <div class="divme me-auto">
+                    <p>&copy; 2022 Julien Pauquet-Lacassagne</p>
+                </div>
+                <div class="divgameboy me-auto">
+                    <img src="images/game_boy.png" alt="logo_GB"> 
+                </div>
+                <div class="divfooticone">
+                    <a href="#"><img src="images/logo-twitter.png" alt="my_twitter" class="rounded-circle fa fa-twitter"></a>
+                    <a href="#"><img src="images/facebook.png" alt="my_facebook" class="rounded-circle fa fa-facebook"></a>
+                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne"><img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin"></a>
+                    <a href="mailto:julienpauquet@gmail.com" class="jaunepastel"><img src="images/email.png" alt="my_mail" class="rounded-circle fa fa-facebook"></a>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
