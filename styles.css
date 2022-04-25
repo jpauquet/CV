@@ -15,6 +15,16 @@
 */
 /* TUNNING */
 
+section a{
+  color: #005555;
+  text-decoration: underline;
+
+}
+
+section a:hover {
+  color: #F7FF93;
+}
+
 h1, h2, h3, h4, h5, h6{
   color: #005555;
 }
@@ -33,6 +43,12 @@ h1, h2, h3, h4, h5, h6{
 
 .myth {
   color: #005555;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.myul {
+  color: #005555;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .myfooterfixe {
@@ -46,6 +62,7 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
   background-image:url(images/forest.jpg);
   background-size:20rem;
+  border-radius: 20px 20px 0 0;
 }
 
 .myfootermove {
@@ -179,6 +196,7 @@ h1, h2, h3, h4, h5, h6{
     width: auto;
     margin-top: 0px;
     margin-bottom: 1px;
+    border-radius: 0 0 20px 20px;
 }
 
 /* small screen */
@@ -194,21 +212,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-#divprez{
+.divprez{
   margin: auto;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
   width: 70%;
   line-height: 2;
 }
 
 
 .divexperience{
-  width: fit-content;
+  width: auto;
   /* margin-bottom: 6rem; */
   line-height: 2;
   font-family: 'Montserrat', sans-serif;
-  height: fit-content;
-  padding-top: 10px;
+  height: 7.5rem;
+  padding-top: 0.6rem;
   border-radius: 10px;
   background-color: #F7FF93;
 }
@@ -237,10 +255,14 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .lesplus{
-  margin-top: 30rem;
-  width: fit-content;
+  /* margin-top: 3rem; */
+  padding-top: 0.6rem;
+  width: 40rem;
   margin-left: 0;
   font-family: 'Montserrat', sans-serif;
+  padding-top: 0.6rem;
+  border-radius: 10px;
+  background-color: #F7FF93;
 }
 
 
@@ -254,17 +276,27 @@ h1, h2, h3, h4, h5, h6{
 
 .sectionleft{
   float: left;
-  margin-left: 5%;
+  margin-left: 6rem;
   width: 40rem;
+  font-family: 'Montserrat', sans-serif;
 }
+.sectionlefttable{
+  float: left;
+  margin-left: 6rem;
+  width: fit-content;
+}
+
 .sectionright{
   float: right;
   margin-right: 15%;
   width: 35rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .sectionmiddle{
-  margin-top: 10px;
+  float: left;
+  margin-left: 25%;
+  width: 40rem;
 }
 
 /* The sidebar menu */
@@ -473,6 +505,5 @@ h1, h2, h3, h4, h5, h6{
   /* background: #007bb5; */
   color: white;
 }
-
 
 
