@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- My meta -->
         <meta name="description" content="Portfolio de Julien Pauquet-Lacassagne, Bordelais curieux des métiers touchants à l'informatique." />
         <meta name="keywords" content="julien, pauquet, julien pauquet-lacassagne, Bordeaux, websites, freelance, developer" />
         <!-- Perso -->
-        <title>CV Julien Pauquet-lacassagne</title>
+        <title>CV Julien Pauquet-lacassagne - Compétences</title>
         <link rel="icon" href="images/favicon-32x32.png" type="image/png">
 
         <!-- Style bootstrap and mystyles -->
@@ -14,138 +15,215 @@
         <link rel="stylesheet" href="styles.css">
 
         <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&text=David%20Ojeda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&text:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
-    <!-- Script -->
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script type="text/javascript" src="/_layouts/15/moccapublishing/vendors/jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/site/CA-GIP/style%20library/vendors/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
-    <!-- Body -->
-    <body style="background-color:  #29775598;">
+    <body style="background-color: #29775598;">
+        <!-- Header -->
         <header class="top-header fixed-top">
             <div>
                 <img src="images/Photo_identite.png" alt="photo_julien" id="photo_julien">
             </div>
         </header>
-    <!-- Debut test --> 
-        <!-- sidebar perso -->
+
+        <!-- Sidebar -->
         <div class="sidenav">
             <a href="index.html">A propos</a>
             <a href="experiences.html">Expériences</a>
             <a href="formations.html">Formations</a>
-            <a href="competences.html">Compétences</a>
+            <a href="competences.html" class="active">Compétences</a>
             <a href="loisirs.html">Loisirs</a>
         </div>
-        <div>
-            <h1 class="heading-h1">Compétences (en travaux)</h1>
-        </div>
-        <section class="sectionleft">
-            <div class=" main container-fluid" >
-                <div class="row ">
-                    <div class="col-sm-12">
-                        <h4>Outils de sauvegade</h4>
-                        <ul class="myul">
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 95%; background-color: #005555;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+
+        <!-- Contenu Principal -->
+        <main class="main">
+            <h1 class="heading-h1">Compétences</h1>
+
+            <div class="row g-4 justify-content-center">
+
+                <!-- Carte 1 : Sauvegarde & Infrastructure -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            SAUVEGARDE & INFRASTRUCTURE
+                        </div>
+                        <div class="skill-body">
+                            <div class="level-title">Expert</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Networker</span>
+                                <span class="badge badge-custom">Avamar</span>
+                                <span class="badge badge-custom">Datadomain</span>
+                                <span class="badge badge-custom">PPDM</span>
                             </div>
-                            <li>Networker</li>
-                            <li>Avamar</li>
-                            <li>Commvault</li>
-                            <li>Datadomain</li>
-                        </ul>
-                        <h4>Système</h4>
-                        <ul class="myul">
-                            <li>Linux</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 80%; background-color: #005555;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
-                              </div>
-                            <li>Windows</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 70%; background-color: #005555;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+
+                            <div class="level-title">Confirmé</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Commvault</span>
+                                <span class="badge badge-custom">DPA</span>
+                                <span class="badge badge-custom">Gestion de stockage</span>
                             </div>
-                            <li>AIX</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 50%; background-color: #005555;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div>
-                        </ul>
-                        <h4>Langages</h4>
-                        <ul class="myul">
-                            <li>Bash</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 90%; background-color: #005555;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
-                            </div>
-                            <li>Python</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 50%; background-color: #005555;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
-                            </div>
-                            <li>Powershell</li>
-                            <div class="progress" style="width: 30%; background-color: #F7FF93;">
-                                <div class="progress-bar " role="progressbar" style="width: 30%; background-color: #005555;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
-                            </div><br>
-                            <li>Web, en cours d'apprentissage.</li>
-                        </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="sectionright">
-            <div class="main container-fluid">
-                <div class="row ">
-                    <div class="col-sm-12">
-                        <h4>Equipe</h4>
-                        <ul class="myul">
-                            <li>Gestion d'une équipe</li>
-                            <li>Travail en équipe</li>
-                        </ul>
-                        <h4>Documentation</h4>
-                        <ul class="myul">
-                            <li>DAT</li>
-                            <li>DEX</li>
-                            <li>PTI</li>
-                        </ul>
-                        <h4>Projet</h4>
-                        <ul class="myul">
-                            <li>Gestion du besoin</li>
-                            <li>Gestion ressources</li>
-                            <li>Gestion charges</li>
-                        </ul>
+
+                <!-- Carte 2 : DevOps & Automatisation -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            DEVOPS & AUTOMATISATION
+                        </div>
+                        <div class="skill-body">
+                            <div class="level-title">Outils DevOps</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Ansible</span>
+                                <span class="badge badge-custom">GitLab</span>
+                                <span class="badge badge-custom">CI/CD</span>
+                                <span class="badge badge-custom">Docker</span>
+                                <span class="badge badge-custom">Terraform</span>
+                                <span class="badge badge-custom">Git</span>
+                            </div>
+
+                            <div class="level-title">Sécurité & Monitoring</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Hashicorp Vault</span>
+                                <span class="badge badge-custom">CyberArk</span>
+                                <span class="badge badge-custom">Grafana</span>
+                                <span class="badge badge-custom">Dynatrace</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Carte 3 : Système & Langages -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            SYSTÈME & LANGAGES
+                        </div>
+                        <div class="skill-body">
+                            <div class="level-title">Systèmes d'exploitation</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Linux (RedHat/CentOS)</span>
+                                <span class="badge badge-custom">Windows Server</span>
+                                <span class="badge badge-custom">AIX</span>
+                            </div>
+
+                            <div class="level-title">Langages de scripting</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">Bash / Shell</span>
+                                <span class="badge badge-custom">Python</span>
+                                <span class="badge badge-custom">YAML</span>
+                                <span class="badge badge-custom">PowerShell</span>
+                            </div>
+
+                            <div class="level-title">Ordonnanceur</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom">ControlM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte 4 : Développement Web (en apprentissage) -->
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            DÉVELOPPEMENT WEB
+                        </div>
+                        <div class="skill-body">
+                            <p class="small text-muted">Compétences acquises via auto-formation et projets personnels.</p>
+
+                            <div class="level-title">Front-End</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom badge-learning">HTML5</span>
+                                <span class="badge badge-custom badge-learning">CSS3</span>
+                                <span class="badge badge-custom badge-learning">Bootstrap 5</span>
+                                <span class="badge badge-custom badge-learning">JavaScript (ES6)</span>
+                                <span class="badge badge-custom badge-learning">React.js</span>
+                            </div>
+
+                            <div class="level-title">Outils & Back-End</div>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge badge-custom badge-learning">Node.js</span>
+                                <span class="badge badge-custom badge-learning">API REST</span>
+                                <span class="badge badge-custom badge-learning">VS Code</span>
+                                <span class="badge badge-custom badge-learning">Postman</span>
+                                <span class="badge badge-custom badge-learning">GitLab</span>
+                                <span class="badge badge-custom badge-learning">GitHub</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carte 5 : Compétences Transverses -->
+                <div class="col-12 col-xl-8">
+                    <div class="skill-card" style="background-color: #A1E3D8;">
+                        <div class="skill-header" style="background-color: #005555;">
+                            COMPÉTENCES TRANSVERSES
+                        </div>
+                        <div class="skill-body">
+                            <div class="row g-4">
+                                <div class="col-md-4 col-sm-6">
+                                    <h5 style="color: #005555; font-weight: bold;">📋 Gestion de Projet</h5>
+                                    <ul class="list-unstyled" style="color: #005555;">
+                                        <li>✓ Analyse du besoin</li>
+                                        <li>✓ Gestion des ressources</li>
+                                        <li>✓ Planification des charges</li>
+                                        <li>✓ Suivi et coordination</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5 style="color: #005555; font-weight: bold;">📝 Documentation</h5>
+                                    <ul class="list-unstyled" style="color: #005555;">
+                                        <li>✓ Rédaction de DAT / DEX</li>
+                                        <li>✓ Procédures Techniques (PTI)</li>
+                                        <li>✓ Rapports d'incidents</li>
+                                        <li>✓ Schémas d'architecture</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 col-sm-6">
+                                    <h5 style="color: #005555; font-weight: bold;">👥 Compétences Humaines</h5>
+                                    <ul class="list-unstyled" style="color: #005555;">
+                                        <li>✓ Travail en équipe</li>
+                                        <li>✓ Gestion d'équipe</li>
+                                        <li>✓ Pédagogie & Formation</li>
+                                        <li>✓ Communication client</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </section>
-        <div class="divhr ">
-            <hr class="myhr mx-auto">
-        </div>
-        <section class="sectionmiddle">
-            <div class="main container-fluid lesplus">
-                <h4 class="heading-h4">Quelques plus ...</h4>
-                <p>Étant curieux, je me suis penché sur d'autres domaines de l'informatique.😉<br>J'ai donc découvert le monde du "web development" il y a plusieurs années mais sans trop mis pencher.<br>Depuis quelques mois, je suis une formation sur Udemy "The Complete 2022 Web Development Bootcamp" qui est absolument géniale et prenante.<br>Celle-ci m'a amenée à créer mon propre site web de A à Z grâce aux différents modules de la formation.<br>J'approfondis donc mes connaissances en:<br><span class="myspan">- HTML</span><br><span class="myspan">- CSS</span><br><span class="myspan">- Bootstrap</span><br><span class="myspan">- Le web design</span><br><span class="myspan">- Javascript</span><br>Et plusieurs autres modules que je ne connais que de nom (jQuery,React,Node.js) pour le moment mais aussi des modules dont j'ai déjà pratiqué comme les modules sur les bases de données.</p>
-            </div>
-        </section>
-        <div class="divhr ">
-            <hr class="myhr mx-auto">
-        </div>
-        <footer class="flex-wrap myfootermove">
+        </main>
+
+        <!-- Footer -->
+        <footer class="myfootermove">
             <nav class="mynavbar">
-                <div class="divme me-auto">
-                    <p>&copy; 2022 Julien Pauquet-Lacassagne</p>
+                <div class="divme">
+                    <p>&copy; 2025 Julien Pauquet-Lacassagne</p>
                 </div>
-                <div class="divgameboy me-auto">
-                    <img src="images/game_boy.png" alt="logo_GB"> 
+                <div class="divgameboy">
+                    <img src="images/game_boy.png" alt="logo_GB">
                 </div>
-                <div class="divfooticone ">
-                    <a href="#"><img src="images/logo-twitter.png" alt="my_twitter" class="rounded-circle fa fa-twitter"></a>
-                    <a href="#"><img src="images/facebook.png" alt="my_facebook" class="rounded-circle fa fa-facebook"></a>
-                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne"><img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin"></a>
-                    <a href="mailto:julienpauquet@gmail.com" class="jaunepastel"><img src="images/email.png" alt="my_mail" class="rounded-circle fa fa-facebook"></a>
+                <div class="divfooticone">
+                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne" target="_blank" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin">
+                    </a>
+                    <a href="mailto:julienpauquet@gmail.com" aria-label="Email">
+                        <img src="images/email.png" alt="my_mail" class="rounded-circle fa">
+                    </a>
                 </div>
             </nav>
         </footer>
+
+        <!-- Scripts -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>

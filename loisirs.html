@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- My meta -->
         <meta name="description" content="Portfolio de Julien Pauquet-Lacassagne, Bordelais curieux des métiers touchants à l'informatique." />
         <meta name="keywords" content="julien, pauquet, julien pauquet-lacassagne, Bordeaux, websites, freelance, developer" />
         <!-- Perso -->
-        <title>CV Julien Pauquet-lacassagne</title>
+        <title>CV Julien Pauquet-lacassagne - Loisirs</title>
         <link rel="icon" href="images/favicon-32x32.png" type="image/png">
 
         <!-- Style bootstrap and mystyles -->
@@ -14,76 +15,142 @@
         <link rel="stylesheet" href="styles.css">
 
         <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&text=David%20Ojeda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&text:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
-    <!-- Script -->
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script type="text/javascript" src="/_layouts/15/moccapublishing/vendors/jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/site/CA-GIP/style%20library/vendors/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
-    <!-- Body -->
-    <body style="background-color:  #29775598;">
+    <body style="background-color: #29775598;">
+        <!-- Header -->
         <header class="top-header fixed-top">
             <div>
                 <img src="images/Photo_identite.png" alt="photo_julien" id="photo_julien">
             </div>
         </header>
-    <!-- Debut test --> 
-        <!-- sidebar perso -->
 
+        <!-- Sidebar -->
         <div class="sidenav">
             <a href="index.html">A propos</a>
             <a href="experiences.html">Expériences</a>
             <a href="formations.html">Formations</a>
             <a href="competences.html">Compétences</a>
-            <a href="loisirs.html">Loisirs</a>
+            <a href="loisirs.html" class="active">Loisirs</a>
         </div>
-        <div>
-            <h1 class="heading-h1">Loisirs (en travaux)</h1>
-        </div>
-        <section class="sectionleft">
-            <div class="main container-fluid">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h4>Randonnées</h4>
-                        <p>
-                            Découverte de nouveaux paysages avec ma compagne et nos chiens.
-                            Boucles avec retour au départ et nuit en bivouac.
-                        </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>Jeux vidéos</h4>
-                        <p>
-                            Passionné de jeux vidéo depuis mon plus jeune âge, j'ai commencé à jouer avec le SEGA Megadrive de mon père puis les consoles qui sont sorties par la suite.
-                            Je devais m'orienter faire un métier de type "Game designer", "Level designer" ou encore "Animateur 3D" mais alors que je suis encore au collège ces métier sont encore flou pour mes parents ou conseillère d'orientation et par manque de connaissances, je suis orienté vers l'électrotechnique... yes ...
-                        </p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h4>Animaux</h4> <p>j'explique les animaux</p>
+
+        <!-- Contenu principal -->
+        <main class="main">
+            <h1 class="heading-h1">Centres d'intérêt</h1>
+
+            <section class="sectionleft">
+                <div class="divprez">
+                    <div class="row g-4">
+
+                        <!-- Passion 1 : Randonnées -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">🥾</div>
+                                <h4 class="hobby-title">Randonnées</h4>
+                                <p class="hobby-description">
+                                    Découverte de nouveaux paysages avec ma compagne et nos chiens.
+                                    J'aime particulièrement les boucles de randonnée avec retour au départ ou les nuits en bivouac.
+                                    La nature est pour moi un lieu de ressourcement et de déconnexion.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Passion 2 : Astronomie -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">🔭</div>
+                                <h4 class="hobby-title">Astronomie</h4>
+                                <p class="hobby-description">
+                                    Fasciné par les étoiles depuis toujours, je me passionne pour l'observation du ciel nocturne et l'étude des phénomènes astronomiques.
+                                    L'immensité de l'univers et les mystères qu'il recèle m'ont toujours captivé.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Passion 3 : Histoire -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">📜</div>
+                                <h4 class="hobby-title">Histoire</h4>
+                                <p class="hobby-description">
+                                    Passionné d'histoire de France et d'histoire mondiale, avec un intérêt particulier pour la période médiévale.
+                                    Je suis également fasciné par l'histoire des premières civilisations : Mésopotamie, Mésoamérique, Égypte ancienne et Grèce antique.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Passion 4 : Jeux vidéo -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">🎮</div>
+                                <h4 class="hobby-title">Jeux Vidéo</h4>
+                                <p class="hobby-description">
+                                    Passionné de jeux vidéo depuis mon plus jeune âge, j'ai commencé avec la SEGA Megadrive de mon père.
+                                    Aujourd'hui je joue principalement à des jeux d'aventure, RPG, jeux d'action et jeux de stratégie sur PC et consoles.
+                                    J'ai d'ailleurs failli m'orienter vers les métiers de Game Designer ou Level Designer.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Passion 5 : Animaux -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">🐾</div>
+                                <h4 class="hobby-title">Animaux & Bien-être animal</h4>
+                                <p class="hobby-description">
+                                    Propriétaire de chiens, chats, poules, moutons, poney et oiseaux, je suis passionné par les animaux.
+                                    Passion transmise par ma compagne qui est Éducatrice/Comportementaliste Canin.
+                                    Grâce à elle, j'ai appris à mieux comprendre le comportement des chiens et leurs besoins.
+                                    Être en contact avec les animaux me permet de me ressourcer et de me détendre.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Passion 6 : Technologie & IA -->
+                        <div class="col-lg-4 col-md-6">
+                            <div class="hobby-card">
+                                <div class="hobby-icon">🤖</div>
+                                <h4 class="hobby-title">Technologie & Intelligence Artificielle</h4>
+                                <p class="hobby-description">
+                                    Curieux des nouvelles technologies et passionné par l'évolution de l'Intelligence Artificielle.
+                                    Je suis les avancées dans le domaine du machine learning et des LLM (Large Language Models).
+                                    J'expérimente régulièrement avec différents outils et frameworks pour comprendre leur fonctionnement.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-            </div>
-        </section>
-        <footer class="fixed-bottom flex-wrap myfooterfixe">
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="myfootermove">
             <nav class="mynavbar">
-                <div class="divme me-auto">
-                    <p>&copy; 2022 Julien Pauquet-Lacassagne</p>
+                <div class="divme">
+                    <p>&copy; 2025 Julien Pauquet-Lacassagne</p>
                 </div>
-                <div class="divgameboy me-auto">
-                    <img src="images/game_boy.png" alt="logo_GB"> 
+                <div class="divgameboy">
+                    <img src="images/game_boy.png" alt="logo_GB">
                 </div>
-                <div class="divfooticone ">
-                    <a href="#"><img src="images/logo-twitter.png" alt="my_twitter" class="rounded-circle fa fa-twitter"></a>
-                    <a href="#"><img src="images/facebook.png" alt="my_facebook" class="rounded-circle fa fa-facebook"></a>
-                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne"><img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin"></a>
-                    <a href="mailto:julienpauquet@gmail.com" class="jaunepastel"><img src="images/email.png" alt="my_mail" class="rounded-circle fa fa-facebook"></a>
+                <div class="divfooticone">
+                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne" target="_blank" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin">
+                    </a>
+                    <a href="mailto:julienpauquet@gmail.com" aria-label="Email">
+                        <img src="images/email.png" alt="my_mail" class="rounded-circle fa">
+                    </a>
                 </div>
             </nav>
         </footer>
+
+        <!-- Scripts -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
