@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- My meta -->
-        <meta name="description" content="Portfolio de Julien Pauquet-Lacassagne, Bordelais curieux des métiers touchants à l'informatique." />
+        <meta name="description" content="Portfolio de Julien Pauquet-Lacassagne, Bordelais curieux des métiers touchants à l'informatique et passionné des Intelligence Artificielle." />
         <meta name="keywords" content="julien, pauquet, julien pauquet-lacassagne, Bordeaux, websites, freelance, developer" />
         <!-- Perso -->
         <title>CV Julien Pauquet-lacassagne</title>
@@ -14,70 +15,90 @@
         <link rel="stylesheet" href="styles.css">
 
         <!-- Google font -->
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&text=David%20Ojeda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&text:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
-    <!-- Script -->
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-    <script type="text/javascript" src="/_layouts/15/moccapublishing/vendors/jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="/site/CA-GIP/style%20library/vendors/jquery/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 
-    <!-- Body -->
     <body style="background-color: #29775598;">
+        <!-- Header fixe -->
         <header class="top-header fixed-top">
             <div>
                 <img src="images/Photo_identite.png" alt="photo_julien" id="photo_julien">
             </div>
         </header>
-        <!-- Debut test --> 
-            <!-- sidebar perso -->
+
+        <!-- Sidebar -->
         <div class="sidenav">
-            <a href="index.html">A propos</a>
+            <a href="index.html" class="active">A propos</a>
             <a href="experiences.html">Expériences</a>
             <a href="formations.html">Formations</a>
             <a href="competences.html">Compétences</a>
             <a href="loisirs.html">Loisirs</a>
         </div>
 
-        <!-- Fin test -->
-        <div>
+        <!-- Contenu principal -->
+        <main class="main">
             <h1 class="heading-h1">A propos de moi</h1>
-        </div>
-        <section class="sectionleft">
-            <div class="main container-fluid divprez ">
-                <h4>Présentation</h4>
-                <p>
-                    Bonjour à tous ! 😃<br> Je m'appelle Julien Pauquet-lacassagne, je suis actuellement prestataire de service chez <a href="https://www.itsgroup.com/">ITS Group</a>. Plus exactement dans l’équipe sauvegarde "Build" pour un de leur client.<br>Je travaille sur différents projets d’intégration de nouvelles infrastructures de sauvegarde. En ce moment c'est surtout avec le logiciel Networker que je dois composer.
-                </p>
-                <br><br>
-            </div>
-        </section>
-        <section class="sectionright">
-            <div class="container-fluid divprojet">    
-                <p>
-                    Cela m'a amenée à répondre à différents besoins et à différentes questions de sauvegarde suivant les types d'infrastructures :<br>- Sauvegarde simple de dizaines de milliers de serveurs.<br>- Sauvegarde de forte volumétrie (> 3Po) contenue dans différents NAS (isilon/Unity).<br>- Sauvegarde sur bandes et/ou sur disques.<br>Et autres demandes farfelues de sauvegarde.<br>Mais aussi je dois : <br>- Suivre les versions et patchs sécurités pour logiciels mis en place.<br>- Entretenir une relation étroite avec les chefs de projets.<br>- Travailler en équipe et avec les autres équipes.<br>- Effectuer les différentes documentations demandées.<br>- Passer les connaissances entre l'équipe Build et Run.<br>- Développer différents scripts pour l'industrialisation de certaines tâches.<br>J’effectue aussi des tâches de suivi N3 sur l’infrastructure historique du client qui comporte les logiciels Networker, Avamar et DataDomain.
-                </p>
-            </div>
-        </section>
-        <footer class="fixed-bottom flex-wrap myfooterfixe">
+
+            <section class="sectionleft">
+                <div class="divprez">
+                    <h4>Présentation</h4>
+                    <p>
+                        Bonjour à tous ! 😃<br>
+                        Je m'appelle Julien Pauquet-lacassagne, je suis actuellement prestataire de service chez <a href="https://www.itsgroup.com/" target="_blank">ITS Group</a> sur Bordeaux.
+                        Plus exactement dans l'équipe sauvegarde "Build" pour un de leur client.<br>
+                        J'ai actuellement la double casquette : Expert sauvegarde et DevOps.<br>
+                        En ce moment, nous sommes en pleine intégration de la solution PPDM de Dell EMC et de mon côté je m'occupe de l'automatisation de l'installation et configuration via Ansible mais aussi la création de playbooks pour la maintenance de l'infrastructure.
+                    </p>
+                </div>
+            </section>
+
+            <section class="sectionright">
+                <div class="divprojet">
+                    <p>
+                        Cela m'a amenée à répondre à différents besoins et à différentes questions de sauvegarde suivant les types d'infrastructures :<br>
+                        - Sauvegarde simple de dizaines de milliers de serveurs.<br>
+                        - Sauvegarde de forte volumétrie (> 3Po) contenue dans différents NAS (isilon/Unity).<br>
+                        - Sauvegarde sur bandes et/ou sur disques.<br>
+                        Et autres demandes farfelues de sauvegarde.<br><br>
+                        Mais aussi je dois : <br>
+                        - Suivre les versions et patchs sécurités pour logiciels mis en place.<br>
+                        - Entretenir une relation étroite avec les chefs de projets.<br>
+                        - Travailler en équipe et avec les autres équipes.<br>
+                        - Effectuer les différentes documentations demandées.<br>
+                        - Passer les connaissances entre l'équipe Build et Run.<br>
+                        - Développer différents scripts pour l'industrialisation de certaines tâches.<br><br>
+                        J'effectue aussi des tâches de suivi N3 sur l'infrastructure et composer avec les logiciels Networker, Avamar, PPDM et DataDomain.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="myfootermove">
             <nav class="mynavbar">
-                <div class="divme me-auto">
-                    <p>&copy; 2022 Julien Pauquet-Lacassagne</p>
+                <div class="divme">
+                    <p>&copy; 2025 Julien Pauquet-Lacassagne</p>
                 </div>
-                <div class="divgameboy me-auto">
-                    <img src="images/game_boy.png" alt="logo_GB"> 
+                <div class="divgameboy">
+                    <img src="images/game_boy.png" alt="logo_GB">
                 </div>
-                <div class="divfooticone ">
-                    <a href="#"><img src="images/logo-twitter.png" alt="my_twitter" class="rounded-circle fa fa-twitter"></a>
-                    <a href="#"><img src="images/facebook.png" alt="my_facebook" class="rounded-circle fa fa-facebook"></a>
-                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne"><img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin"></a>
-                    <a href="mailto:julienpauquet@gmail.com" class="jaunepastel"><img src="images/email.png" alt="my_mail" class="rounded-circle fa fa-facebook"></a>
+                <div class="divfooticone">
+                    <a href="https://fr.linkedin.com/in/julien-pauquet-lacassagne" target="_blank" aria-label="LinkedIn">
+                        <img src="images/linkedin.png" alt="my_linkedin" class="rounded-circle fa fa-linkedin">
+                    </a>
+                    <a href="mailto:julienpauquet@gmail.com" class="jaunepastel" aria-label="Email">
+                        <img src="images/email.png" alt="my_mail" class="rounded-circle fa">
+                    </a>
                 </div>
             </nav>
         </footer>
+
+        <!-- Scripts -->
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
